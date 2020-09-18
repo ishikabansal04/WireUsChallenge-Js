@@ -1,0 +1,1 @@
+document.write("In Tina and Queenie’s apartment, there are several brightly colored books on the shelf behind Jacob at dinner. The books are the seven volumes of Chadwick’s Charms, which are the American equivalent of The Standard Book of Spells used at Hogwarts.");
