@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "Day19.css">
+    <title>Image filter</title>
+</head>
+<body>
+    <header><h1>Image filter</h1></header>
+    <h3>{ Choose filter by clicking buttons below }</h3>
+    <main>
+        <section class = "image">
+            <img id = "source-image" src = "plain.png" alt = "headphones">
+        </section>
+
+        <section class = "buttons">
+            <button id = "Red" onclick = "apply_filter(this)"></button>
+            <button id = "Green" onclick = "apply_filter(this)"></button>
+            <button id = "Blue" onclick = "apply_filter(this)"></button>
+        </section>
+    </main>
+    <script src = "Day19.js"></script>
+</body>
+</html>
